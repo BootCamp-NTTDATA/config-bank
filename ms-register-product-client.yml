@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:123456.@ms-client-product.cnhvl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
