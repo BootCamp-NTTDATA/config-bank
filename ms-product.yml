@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:123456.@ms-product.ouyt2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+      uri: mongodb+srv://aburgoss:aburgoss@cluster0.ibhoc.mongodb.net/ProductsDB?retryWrites=true&w=majority
 
 eureka:
   instance:
