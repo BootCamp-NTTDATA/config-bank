@@ -10,10 +10,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.17.0.3:8761/eureka/
-  instance:
-    hostname: localhost
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      id: ${spring.application.name}:${spring.application.instance_id}:${random.value}
+instance:
+   hostname: localhost
+client:
+   fetch-registry: true
+   register-with-eureka: true
+   service-url:
+     id: ${spring.application.name}:${spring.application.instance_id}:${random.value}
