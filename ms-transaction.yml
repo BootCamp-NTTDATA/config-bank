@@ -7,9 +7,7 @@ spring:
       uri: mongodb+srv://admin:123456.@ms-transaction.aghqo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
       
 eureka:
-  client:
-      fetch-registry: true
-      register-with-eureka: true 
+  client: 
     serviceUrl:
       defaultZone: http://192.168.1.3:8761/eureka/
   instance:
